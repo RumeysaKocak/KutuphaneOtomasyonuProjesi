@@ -19,47 +19,6 @@ namespace KutuphaneOtomasyonuProjesi.Kaynak
             InitializeComponent();
         }
 
-        private void txtKullaniciTc_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        
-
-        private void lblIsim_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblYazar_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblYayinevi_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblSayfa_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblTarih_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtKaynakIsmi_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtKaynakYazari_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void btnKaynakEkle_Click(object sender, EventArgs e)
         {

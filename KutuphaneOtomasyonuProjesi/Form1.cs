@@ -21,19 +21,6 @@ namespace KutuphaneOtomasyonuProjesi
         }
 
         
-
-       
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        
-        
-
-        
-
         private void btnLogin_Click(object sender, EventArgs e)
         {
             string name = txtKullaniciAdi.Text;
@@ -89,15 +76,7 @@ namespace KutuphaneOtomasyonuProjesi
                 return sb.ToString();
             }
         }
-        private void txtSifre_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtKullaniciAdi_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -111,15 +90,7 @@ namespace KutuphaneOtomasyonuProjesi
 
         }
 
-        private void lblKullaniciAdi_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblSifre_Click(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void closeButton_Click(object sender, EventArgs e)
         {

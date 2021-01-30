@@ -63,7 +63,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(250, 652);
             this.panel1.TabIndex = 0;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // btnGeriAl
             // 
@@ -205,7 +204,7 @@
             this.pnlKullaniciBilgi.Name = "pnlKullaniciBilgi";
             this.pnlKullaniciBilgi.Size = new System.Drawing.Size(1112, 36);
             this.pnlKullaniciBilgi.TabIndex = 1;
-            this.pnlKullaniciBilgi.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlKullaniciBilgi_Paint);
+           
             // 
             // IslemPaneli
             // 
@@ -219,7 +218,6 @@
             this.IsMdiContainer = true;
             this.Name = "IslemPaneli";
             this.Text = "IslemPaneli";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.IslemPaneli_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.IslemPaneli_FormClosed);
             this.Load += new System.EventHandler(this.IslemPaneli_Load);
             this.panel1.ResumeLayout(false);

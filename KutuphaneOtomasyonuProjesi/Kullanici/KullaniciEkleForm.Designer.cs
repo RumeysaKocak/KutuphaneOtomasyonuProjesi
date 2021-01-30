@@ -56,7 +56,7 @@
             this.lblAd.Size = new System.Drawing.Size(37, 17);
             this.lblAd.TabIndex = 0;
             this.lblAd.Text = "Ad : ";
-            this.lblAd.Click += new System.EventHandler(this.lblAd_Click);
+      
             // 
             // lblSoyad
             // 
@@ -66,7 +66,7 @@
             this.lblSoyad.Size = new System.Drawing.Size(60, 17);
             this.lblSoyad.TabIndex = 1;
             this.lblSoyad.Text = "Soyad : ";
-            this.lblSoyad.Click += new System.EventHandler(this.lblSoyad_Click);
+    
             // 
             // lblTc
             // 
@@ -76,7 +76,7 @@
             this.lblTc.Size = new System.Drawing.Size(38, 17);
             this.lblTc.TabIndex = 2;
             this.lblTc.Text = "TC : ";
-            this.lblTc.Click += new System.EventHandler(this.lblTc_Click);
+        
             // 
             // lblTel
             // 
@@ -86,7 +86,7 @@
             this.lblTel.Size = new System.Drawing.Size(40, 17);
             this.lblTel.TabIndex = 3;
             this.lblTel.Text = "Tel : ";
-            this.lblTel.Click += new System.EventHandler(this.lblTel_Click);
+           
             // 
             // lblMail
             // 
@@ -96,7 +96,7 @@
             this.lblMail.Size = new System.Drawing.Size(45, 17);
             this.lblMail.TabIndex = 4;
             this.lblMail.Text = "Mail : ";
-            this.lblMail.Click += new System.EventHandler(this.lblMail_Click);
+            
             // 
             // lblCeza
             // 
@@ -106,7 +106,7 @@
             this.lblCeza.Size = new System.Drawing.Size(52, 17);
             this.lblCeza.TabIndex = 5;
             this.lblCeza.Text = "Ceza : ";
-            this.lblCeza.Click += new System.EventHandler(this.lblCeza_Click);
+          
             // 
             // lblCinsiyet
             // 
@@ -116,7 +116,7 @@
             this.lblCinsiyet.Size = new System.Drawing.Size(69, 17);
             this.lblCinsiyet.TabIndex = 6;
             this.lblCinsiyet.Text = "Cinsiyet : ";
-            this.lblCinsiyet.Click += new System.EventHandler(this.lblCinsiyet_Click);
+           
             // 
             // txtKullaniciAd
             // 
@@ -124,7 +124,7 @@
             this.txtKullaniciAd.Name = "txtKullaniciAd";
             this.txtKullaniciAd.Size = new System.Drawing.Size(172, 22);
             this.txtKullaniciAd.TabIndex = 7;
-            this.txtKullaniciAd.TextChanged += new System.EventHandler(this.txtKullaniciAd_TextChanged);
+          
             // 
             // txtKullaniciSoyad
             // 
@@ -132,7 +132,7 @@
             this.txtKullaniciSoyad.Name = "txtKullaniciSoyad";
             this.txtKullaniciSoyad.Size = new System.Drawing.Size(172, 22);
             this.txtKullaniciSoyad.TabIndex = 8;
-            this.txtKullaniciSoyad.TextChanged += new System.EventHandler(this.txtKullaniciSoyad_TextChanged);
+            
             // 
             // txtKullaniciTc
             // 
@@ -140,7 +140,7 @@
             this.txtKullaniciTc.Name = "txtKullaniciTc";
             this.txtKullaniciTc.Size = new System.Drawing.Size(172, 22);
             this.txtKullaniciTc.TabIndex = 10;
-            this.txtKullaniciTc.TextChanged += new System.EventHandler(this.txtKullaniciTc_TextChanged);
+          
             // 
             // txtKullaniciTel
             // 
@@ -148,7 +148,7 @@
             this.txtKullaniciTel.Name = "txtKullaniciTel";
             this.txtKullaniciTel.Size = new System.Drawing.Size(172, 22);
             this.txtKullaniciTel.TabIndex = 11;
-            this.txtKullaniciTel.TextChanged += new System.EventHandler(this.txtKullaniciTel_TextChanged);
+            
             // 
             // txtKullaniciMail
             // 
@@ -156,7 +156,7 @@
             this.txtKullaniciMail.Name = "txtKullaniciMail";
             this.txtKullaniciMail.Size = new System.Drawing.Size(172, 22);
             this.txtKullaniciMail.TabIndex = 12;
-            this.txtKullaniciMail.TextChanged += new System.EventHandler(this.txtKullaniciMail_TextChanged);
+            
             // 
             // txtKullaniciCeza
             // 
@@ -164,7 +164,7 @@
             this.txtKullaniciCeza.Name = "txtKullaniciCeza";
             this.txtKullaniciCeza.Size = new System.Drawing.Size(172, 22);
             this.txtKullaniciCeza.TabIndex = 13;
-            this.txtKullaniciCeza.TextChanged += new System.EventHandler(this.txtKullaniciCeza_TextChanged);
+           
             // 
             // rbtnK
             // 
@@ -188,7 +188,7 @@
             this.rbtnE.TabStop = true;
             this.rbtnE.Text = "E";
             this.rbtnE.UseVisualStyleBackColor = true;
-            this.rbtnE.CheckedChanged += new System.EventHandler(this.rbtnE_CheckedChanged);
+       
             // 
             // btnKaydet
             // 
@@ -210,7 +210,7 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(721, 487);
             this.dataGridView1.TabIndex = 17;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+           
             // 
             // KullaniciEkleForm
             // 

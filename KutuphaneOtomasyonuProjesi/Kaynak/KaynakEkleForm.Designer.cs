@@ -62,7 +62,7 @@
             this.txtKaynakYayinevi.Name = "txtKaynakYayinevi";
             this.txtKaynakYayinevi.Size = new System.Drawing.Size(200, 22);
             this.txtKaynakYayinevi.TabIndex = 26;
-            this.txtKaynakYayinevi.TextChanged += new System.EventHandler(this.txtKullaniciTc_TextChanged);
+           
             // 
             // txtKaynakYazari
             // 
@@ -70,7 +70,7 @@
             this.txtKaynakYazari.Name = "txtKaynakYazari";
             this.txtKaynakYazari.Size = new System.Drawing.Size(200, 22);
             this.txtKaynakYazari.TabIndex = 25;
-            this.txtKaynakYazari.TextChanged += new System.EventHandler(this.txtKaynakYazari_TextChanged);
+          
             // 
             // txtKaynakIsmi
             // 
@@ -78,7 +78,7 @@
             this.txtKaynakIsmi.Name = "txtKaynakIsmi";
             this.txtKaynakIsmi.Size = new System.Drawing.Size(200, 22);
             this.txtKaynakIsmi.TabIndex = 24;
-            this.txtKaynakIsmi.TextChanged += new System.EventHandler(this.txtKaynakIsmi_TextChanged);
+            
             // 
             // lblYayinevi
             // 
@@ -88,7 +88,7 @@
             this.lblYayinevi.Size = new System.Drawing.Size(73, 17);
             this.lblYayinevi.TabIndex = 23;
             this.lblYayinevi.Text = "Yayınevi : ";
-            this.lblYayinevi.Click += new System.EventHandler(this.lblYayinevi_Click);
+         
             // 
             // lblTarih
             // 
@@ -98,7 +98,7 @@
             this.lblTarih.Size = new System.Drawing.Size(53, 17);
             this.lblTarih.TabIndex = 20;
             this.lblTarih.Text = "Tarih : ";
-            this.lblTarih.Click += new System.EventHandler(this.lblTarih_Click);
+         
             // 
             // lblSayfa
             // 
@@ -108,7 +108,7 @@
             this.lblSayfa.Size = new System.Drawing.Size(97, 17);
             this.lblSayfa.TabIndex = 19;
             this.lblSayfa.Text = "Sayfa Sayısı : ";
-            this.lblSayfa.Click += new System.EventHandler(this.lblSayfa_Click);
+        
             // 
             // lblYazar
             // 
@@ -118,7 +118,7 @@
             this.lblYazar.Size = new System.Drawing.Size(57, 17);
             this.lblYazar.TabIndex = 18;
             this.lblYazar.Text = "Yazar : ";
-            this.lblYazar.Click += new System.EventHandler(this.lblYazar_Click);
+        
             // 
             // lblIsim
             // 
@@ -128,7 +128,7 @@
             this.lblIsim.Size = new System.Drawing.Size(37, 17);
             this.lblIsim.TabIndex = 17;
             this.lblIsim.Text = "Ad : ";
-            this.lblIsim.Click += new System.EventHandler(this.lblIsim_Click);
+        
             // 
             // dataGridView1
             // 

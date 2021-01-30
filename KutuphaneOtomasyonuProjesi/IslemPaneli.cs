@@ -123,10 +123,7 @@ namespace KutuphaneOtomasyonuProjesi
                 guncelleKullaniciDurum = false;
             }
         }
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+        
 
         private Kaynak.KaynakListeForm kListe;
         private void btnKaynak_Click(object sender, EventArgs e)
@@ -157,15 +154,7 @@ namespace KutuphaneOtomasyonuProjesi
 
         }
 
-
-
-
-        private void pnlKullaniciBilgi_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-
+        
         private Kaynak.KaynakEkleForm kEkle;
         private bool ekleKaynakDurum = false;
 
@@ -286,14 +275,12 @@ namespace KutuphaneOtomasyonuProjesi
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void IslemPaneli_FormClosing(object sender, FormClosingEventArgs e)
-        {
-
-        }
-
+      
         private void IslemPaneli_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
         }
+
+        
     }
 }

@@ -197,8 +197,8 @@
             this.dataGridView1.Size = new System.Drawing.Size(1052, 472);
             this.dataGridView1.TabIndex = 33;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            this.dataGridView1.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_CellMouseClick);
+    
+     
             // 
             // KullaniciGuncelleForm
             // 

@@ -122,11 +122,10 @@ namespace KutuphaneOtomasyonuProjesi.Kayit
             dt.Load(dr);
             string kaynakId = dt.Rows[0]["kaynak_id"].ToString();
             conn.Close();
-
-
+       
 
             conn.Open();
-            SqlCommand cmd2 = new SqlCommand("Select Kullanicilar.kullanici_id  from Kullanicilar WHERE Kullanicilar.kullanici_tc=" + secilenKisiTc , conn);
+            SqlCommand cmd2 = new SqlCommand("Select Kullanicilar.kullanici_id  from Kullanicilar WHERE Kullanicilar.kullanici_tc='" + secilenKisiTc+"'" , conn);
             SqlDataReader dr2 = cmd2.ExecuteReader();
             DataTable dt2 = new DataTable();
             dt2.Load(dr2);

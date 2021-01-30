@@ -41,22 +41,10 @@ namespace KutuphaneOtomasyonuProjesi.Kaynak
             dataGridView1.Columns[5].HeaderText = "Basım Tarihi";
 
 
-
-
-
-
-
         }
 
 
-
-
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            
-        }
-
+   
         private void KaynakListeForm_Load(object sender, EventArgs e)
         {
             conn.Open();

@@ -30,11 +30,7 @@ namespace KutuphaneOtomasyonuProjesi.Kayit
             conn.Close();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
+        
         private void btnGeri_Click(object sender, EventArgs e)
         {
             int secilenKayitId = Convert.ToInt16(dataGridView1.CurrentRow.Cells[0].Value);

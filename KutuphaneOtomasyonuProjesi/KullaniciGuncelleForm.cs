@@ -83,11 +83,6 @@ namespace KutuphaneOtomasyonuProjesi
 
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-
-            }
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -104,10 +99,7 @@ namespace KutuphaneOtomasyonuProjesi
                 rbtnK.Checked = true;
         }
 
-        private void dataGridView1_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
-        {
-            
-        }
+      
     }
     }
 

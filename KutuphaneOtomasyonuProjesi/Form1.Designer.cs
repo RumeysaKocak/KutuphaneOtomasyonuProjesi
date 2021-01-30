@@ -52,7 +52,7 @@
             this.lblKullaniciAdi.Size = new System.Drawing.Size(84, 17);
             this.lblKullaniciAdi.TabIndex = 0;
             this.lblKullaniciAdi.Text = "Kullanıcı Adı";
-            this.lblKullaniciAdi.Click += new System.EventHandler(this.lblKullaniciAdi_Click);
+            
             // 
             // lblSifre
             // 
@@ -63,7 +63,7 @@
             this.lblSifre.Size = new System.Drawing.Size(37, 17);
             this.lblSifre.TabIndex = 1;
             this.lblSifre.Text = "Şifre";
-            this.lblSifre.Click += new System.EventHandler(this.lblSifre_Click);
+           
             // 
             // txtKullaniciAdi
             // 
@@ -72,7 +72,7 @@
             this.txtKullaniciAdi.Name = "txtKullaniciAdi";
             this.txtKullaniciAdi.Size = new System.Drawing.Size(301, 22);
             this.txtKullaniciAdi.TabIndex = 2;
-            this.txtKullaniciAdi.TextChanged += new System.EventHandler(this.txtKullaniciAdi_TextChanged);
+         
             // 
             // txtSifre
             // 
@@ -82,7 +82,7 @@
             this.txtSifre.Size = new System.Drawing.Size(301, 22);
             this.txtSifre.TabIndex = 3;
             this.txtSifre.UseSystemPasswordChar = true;
-            this.txtSifre.TextChanged += new System.EventHandler(this.txtSifre_TextChanged);
+           
             // 
             // btnLogin
             // 

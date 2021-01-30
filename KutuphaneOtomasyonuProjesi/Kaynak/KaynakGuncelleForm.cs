@@ -44,11 +44,6 @@ namespace KutuphaneOtomasyonuProjesi.Kaynak
 
 
 
-
-            
-
-
-
         }
         private void btnKaynakGuncelle_Click(object sender, EventArgs e)
         {
@@ -65,8 +60,6 @@ namespace KutuphaneOtomasyonuProjesi.Kaynak
             SqlDataReader dr = cmd.ExecuteReader();
             conn.Close();
             ListeleKaynak();
-
-
 
 
 
